@@ -1,6 +1,6 @@
 import React, { useReducer, useState } from "react";
 import "./App.css";
-import AddBookPopUp from "./Components/AddBookPopUp";
+import AddBookPopUp from "./Components/AddBookPopup.jsx";
 import MyContext from "./Context/MyContext";
 import BookDetailsCard from "./Components/BookDetailsCard";
 import { reducer } from "./Reducer/Reducer";
